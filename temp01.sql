@@ -1,0 +1,24 @@
+DROP TABLE members ;
+
+CREATE TABLE members(
+    ID  REAL     NOT NULL,
+   	NAME TEXT    NOT NULL,
+   	AGE REAL     NOT NULL,
+   	ADDRESS TEXT,
+   	SALARY REAL
+);
+
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+		VALUES (1, 'Paul', 22, 'California', 20000.00 );
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+		VALUES (2, 'Allen', 27, 'Texas', 15000.00 );
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+		VALUES (3, 'Teddy', 23, 'Norway', 20000.00 );
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+		VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 );
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+		VALUES (5, 'David', 27, 'Texas', 85000.00 );
+INSERT INTO members (ID,NAME,AGE,ADDRESS,SALARY)
+VALUES (6, 'Kim', 22, 'South-Hall', 45000.00 );
+INSERT INTO members VALUES (7, 'James', 22, 'Houston', 10000.00 );
+INSERT INTO members VALUES (8, 'James', 35, 'Texas', 40000.00 );
